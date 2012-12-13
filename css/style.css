@@ -1,5 +1,5 @@
 #content{
-	width; 100%
+	width: 100%;
 	margin: 0 auto;
 	background: #CCC;
 	
@@ -122,14 +122,14 @@ footer{
     
     padding: 6px;
     
-}#h2Instrutor{
-	font-size: 28;
+}#h2Instructor{
+	font-size: 28px;
 	font-family: "lucida console";
 }
-#h2Instrutor img{
+#h2Instructor img{
 	margin: 10px;
 }
-.descricao-part{
+.description-part{
 	background: #E9E9E9;
 	border: 2px solid #B5B5B5;
 
@@ -289,4 +289,45 @@ Começo do slideshow
 		#jquery-div h4{
 			background-color: #125c8d;
 			text-align: center;
+		}
+
+		/* Ajeitando layout proposto pelo Elder */
+
+		#gtech .gtechbanner{
+			font-weight: bold;
+			font-size: 28px;
+			font-family: "Lucida Console";
+		}
+
+		#gtech div{
+			background-color: #E9E9E9;
+			margin:	0px auto;
+		}
+
+		/* #gtech ul li{
+			display: inline-block;
+			padding: 10px;
+		} */
+
+		#images-box{ 
+			margin: 0 auto;
+			border: 1px #B5B5B5 solid; 
+		} 
+
+		#images-box img { 
+			margin-left: 10px;
+			margin-right: 10px; 
+			border: 5px solid #eee; 
+			-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+			-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+			box-shadow: 4px 4px 4px rgba(0,0,0,0.2); 
+			-webkit-transition: all 0.5s ease-out; 
+			-moz-transition: all 0.5s ease; 
+			-o-transition: all 0.5s ease; 
+		}
+
+		#images-box img:hover { 
+			-webkit-transform: rotate(-7deg); 
+			-moz-transform: rotate(-7deg); 
+			-o-transform: rotate(-7deg);
 		}
